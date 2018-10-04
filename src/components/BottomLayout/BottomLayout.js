@@ -1,0 +1,36 @@
+import Layout from '@enact/ui/Layout';
+import {Cell} from '@enact/ui/Layout';
+import Item from '@enact/ui/Item';
+import kind from '@enact/core/kind';
+import React from 'react';
+import IconButton from '@enact/ui/IconButton';
+
+import css from './BottomLayout.less';
+
+const BottomLayout = kind({
+	name: 'BottomLayout',
+
+	
+
+	render: (props) => (
+		<Layout align='center'  className={css.bottomlayout}>
+ 
+
+ 
+   <Cell  >
+   
+  </Cell>
+  <Cell >
+    <Item  className={css.item}>09 de Septiembre del 2018</Item>
+  </Cell>
+  <Cell >
+    <Item className={css.item}>04:40 PM</Item>
+  </Cell>
+   <Cell  >
+    <Item className={css.temp}>16°C / 61°F</Item>
+  </Cell>
+</Layout>
+	)
+});
+
+export default BottomLayout;
