@@ -39,6 +39,7 @@
 		"prop-types": "^15.6.2",
 		"react": "^16.4.2",
 		"react-dom": "^16.4.2",
+		"resolve-url-loader": "^3.0.0",
 		"typeface-montserrat": "0.0.54"
 	}
 }

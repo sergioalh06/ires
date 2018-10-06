@@ -6,7 +6,9 @@ import React from 'react';
 import Image from '@enact/ui/Image';
 
 import css from './TopLayout.less';
-require('typeface-montserrat');
+//require('typeface-montserrat');  
+
+
 
 
 const TopLayout = kind({
