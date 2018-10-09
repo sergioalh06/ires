@@ -19,8 +19,8 @@ const TopLayout = kind({
 	render: (props) => (
 		<Layout align='center'  className={css.toplayout}>
  
- <Image className={css.full} src='logo.png' sizing="fit" />
- 
+
+ <div className={css.full}  />   
    <Cell  >
    
   </Cell>
